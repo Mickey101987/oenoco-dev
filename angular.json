@@ -27,9 +27,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/default.css",
+              "src/assets/css/style.css",
+              "src/assets/fonts/fonts.css",
+              "src/assets/css/responsive.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor/modernizr-3.6.0.min.js",
+              "src/assets/js/vendor/jquery-1.12.4.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.magnific-popup.min.js",
+              "src/assets/js/jquery.nav.js",
+              "src/assets/js/jquery.nice-number.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
