@@ -74,7 +74,7 @@ $(function() {
     
     //====== Slick product image
     
-    $('.product-image').slick({
+    /*$('.product-image').slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -82,7 +82,7 @@ $(function() {
         prevArrow: '<span class="prev"><i class="lni-chevron-left"></i></span>',
         nextArrow: '<span class="next"><i class="lni-chevron-right"></i></i></span>',
         dots: false,
-    });
+    });*/
     
     
     //====== Nice Number
