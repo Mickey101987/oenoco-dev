@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Template Name: 
-    Template URI: 
-    Description: 
-    Author: 
+    Template Name:
+    Template URI:
+    Description:
+    Author:
     Author:
     Version: 1.1
 
@@ -29,7 +29,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1.COMMON css 
+    1.COMMON css
 ===========================*/
 body {
   font-family: "Quicksand Book", sans-serif;
@@ -277,7 +277,7 @@ p {
     -o-transform: rotate(-360deg);
     transform: rotate(-360deg); } }
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .header-area {
   padding: 30px 0;
@@ -368,12 +368,12 @@ p {
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s; }
       .header-area .navbar .navbar-nav .nav-item.active a, .header-area .navbar .navbar-nav .nav-item:hover a {
-        color: #573449; 
-        font-weight: 1200;
+        color: #573449;
+        font-weight: 900;
       }
 
 /*===========================
-    3.SLIDER css 
+    3.SLIDER css
 ===========================*/
 .slider-active .slick-dots {
   position: absolute;
@@ -561,7 +561,7 @@ p {
           width: 65%; } }
 
 /*===========================
-    4.DESCOUNT PRODUCT css 
+    4.DESCOUNT PRODUCT css
 ===========================*/
 @media (max-width: 767px) {
   .discount-product {
@@ -622,7 +622,7 @@ p {
     transform: scale(1.2); }
 
 /*===========================
-     5.PRODUCT CARD css 
+     5.PRODUCT CARD css
 ===========================*/
 @media (max-width: 767px) {
   .product-area {
@@ -804,7 +804,7 @@ p {
     overflow: visible; }
 
 /*===========================
-     6.SERVICES css 
+     6.SERVICES css
 ===========================*/
 .services-area {
   background-color: #fffaf6; }
@@ -830,7 +830,7 @@ p {
     color: #573449; }
 
 /*===========================
-     7.SHOWCASE css 
+     7.SHOWCASE css
 ===========================*/
 @media (max-width: 767px) {
   .showcase-area {
@@ -910,7 +910,7 @@ p {
     cursor: pointer; }
 
 /*===========================
-     8.TEAM css 
+     8.TEAM css
 ===========================*/
 .team-area {
   background-color: #fffaf6; }
@@ -974,7 +974,7 @@ p {
     box-shadow: 0px 0px 7px 0px rgba(254, 119, 101, 0.55); }
 
 /*===========================
-     9.TESTIMONIAL css 
+     9.TESTIMONIAL css
 ===========================*/
 .testimonial-area {
   position: relative; }
@@ -1035,7 +1035,7 @@ p {
     line-height: 90px; }
 
 /*===========================
-     10.BLOG css 
+     10.BLOG css
 ===========================*/
 @media (max-width: 767px) {
   .blog-area {
@@ -1116,7 +1116,7 @@ p {
     transform: scale(1.1); }
 
 /*===========================
-       11.CONTACT css 
+       11.CONTACT css
 ===========================*/
 .contact-area .contact-title .title {
   font-size: 60px;
@@ -1198,7 +1198,7 @@ p.form-message.error {
   color: #f00; }
 
 /*===========================
-       12.FOOTER css 
+       12.FOOTER css
 ===========================*/
 .footer-area {
   position: relative; }
@@ -1328,7 +1328,7 @@ p.form-message.error {
     background-color: #fff; }
 
 /*===========================
-     13.PAGE BANNER css 
+     13.PAGE BANNER css
 ===========================*/
 @media (max-width: 767px) {
   .page-banner-area {
@@ -1359,7 +1359,7 @@ p.form-message.error {
       color: #fff; }
 
 /*===========================
- 14.PRODUCT SINGLE PAGE css 
+ 14.PRODUCT SINGLE PAGE css
 ===========================*/
 @media (max-width: 767px) {
   .product-single-page {
