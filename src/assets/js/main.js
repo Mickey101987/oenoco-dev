@@ -1,36 +1,36 @@
 $(function() {
-    
+
     "use strict";
-    
-    
+
+
     //===== Prealoder
-    
+
     $(window).on('load', function(event) {
         $('.preloader').delay(500).fadeOut(500);
     });
-    
-    
-    //===== Mobile Menu 
-    
+
+
+    //===== Mobile Menu
+
     $(".navbar-toggler").on('click', function() {
         $(this).toggleClass('active');
     });
-    
+
     $(".navbar-nav a").on('click', function() {
         $(".navbar-toggler").removeClass('active');
     });
-    
-    
+
+
     //===== close navbar-collapse when a  clicked
-    
+
     $(".navbar-nav a").on('click', function () {
         $(".navbar-collapse").removeClass("show");
     });
-    
-    
+
+
     //===== Sticky
-    
-    $(window).on('scroll',function(event) {    
+
+    $(window).on('scroll',function(event) {
         var scroll = $(window).scrollTop();
         if (scroll < 30) {
             $(".oenoco-logo").attr({
@@ -44,10 +44,10 @@ $(function() {
           });
         }
     });
-    
-    
+
+
     //===== One Page Nav
-    
+
     $('#nav').onePageNav({
         filter: ':not(.external)',
         currentClass: 'active',
@@ -61,19 +61,87 @@ $(function() {
             $('.back-to-top').fadeOut(200)
         }
     });
-    
+
     //Animate the scroll to yop
     $('.back-to-top').on('click', function(event) {
         event.preventDefault();
-        
+
         $('html, body').animate({
             scrollTop: 0,
         }, 1500);
     });
-    
-    
+
+  //=====  Slick Showcase active
+
+  $('.showcase-active').slick({
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 1,
+    arrows:true,
+    prevArrow:'<span class="prev"><i class="lni-arrow-left"></i></span>',
+    nextArrow: '<span class="next"><i class="lni-arrow-right"></i></span>',
+    adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          arrows: false,
+        }
+      }
+    ]
+  });
+
+  //=====  Slick product items active
+
+  $('.product-items-active').slick({
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    adaptiveHeight: true,
+    arrows:true,
+    prevArrow:'<span class="prev"><i class="lni-chevron-left"></i></span>',
+    nextArrow: '<span class="next"><i class="lni-chevron-right"></i></span>',
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          arrows: false,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+        }
+      }
+    ]
+  });
+
     //====== Slick product image
-    
+
     /*$('.product-image').slick({
         infinite: true,
         slidesToShow: 1,
@@ -83,17 +151,17 @@ $(function() {
         nextArrow: '<span class="next"><i class="lni-chevron-right"></i></i></span>',
         dots: false,
     });*/
-    
-    
+
+
     //====== Nice Number
-    
+
     $('input[type="number"]').niceNumber({
-        
+
     });
 
-    
+
     //=====  Rating selection
-    
+
     var $star_rating = $('.star-rating .fa');
 
     var SetRatingStar = function() {
@@ -112,8 +180,8 @@ $(function() {
     });
 
     SetRatingStar();
-    
-    
-    
-    
+
+
+
+
 });

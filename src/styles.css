@@ -1,41 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
-.about-img{
-    width: 75%;
+.about-img {
+  width: 85%;
 }
+
 .about-card {
-    align-items: center;
+  align-items: center;
 }
 
-h3{
-    font-weight: 900;
+h3 {
+  font-weight: 900;
 }
-
+.product-items-active .slick-arrow {
+  z-index: 1;
+}
 .oenoco-inclined {
-    width: 60%;
-    position: relative;
-    top: 0;
-    z-index: -9999;
-    left: 20%;
-    transform: rotate(20deg)
+  width: 60%;
+  position: relative;
+  top: 0;
+  left: 30%;
+  transform: rotate(20deg)
+}
+
+.header-area .navbar .navbar-nav .nav-item a {
+  font-size: 13px;
 }
 
 .parent {
-    position: relative;
-    width: 100%;
-    min-height: calc(100vh);
+  position: relative;
+  width: 100%;
+  min-height: calc(100vh);
 }
-.child1 {
-    position: absolute;
-    width: 51%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-.child2 {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
 
+.child1 {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.child2 {
+  margin-left: 30px;
+  width: 100%;
+  height: 100%;
 }
 
 .cocktails-title-container {
@@ -46,10 +53,12 @@ h3{
   width: 30%;
   background-color: #f9cdca;
 }
+
 .cocktails-title-container h3 {
   margin-left: 50%;
   color: #573449;
 }
+
 .question {
   width: 100%;
   color: #000000;
@@ -58,9 +67,11 @@ h3{
   border-radius: 25px;
   background-color: #f5c6cb;
 }
+
 .true {
   background-color: #28a745;
 }
+
 .false {
   background-color: #bd2130;
 }
