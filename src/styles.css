@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-.card-img-top {
+.about-img{
     width: 75%;
 }
-.card {
+.about-card {
     align-items: center;
 }
 
@@ -35,4 +35,33 @@ h3{
     width: 100%;
     height: 100%;
     z-index: -1;
+
 }
+
+.cocktails-title-container {
+  padding: 10px 0;
+  position: absolute;
+  margin-top: 100px;
+  left: 0;
+  width: 30%;
+  background-color: #f9cdca;
+}
+.cocktails-title-container h3 {
+  margin-left: 50%;
+  color: #573449;
+}
+.question {
+  width: 100%;
+  color: #000000;
+  border: 1px #573449 solid;
+  padding: 10px 0 10px 40px;
+  border-radius: 25px;
+  background-color: #f5c6cb;
+}
+.true {
+  background-color: #28a745;
+}
+.false {
+  background-color: #bd2130;
+}
+
