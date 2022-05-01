@@ -22,7 +22,10 @@ h3 {
 }
 
 .header-area .navbar .navbar-nav .nav-item a {
-  font-size: 13px;
+  font-size: 12px;
+}
+.header-area .navbar .navbar-nav .nav-item {
+  margin-left: 20px;
 }
 .header-area .navbar .navbar-nav .nav-item.active a{
   font-family: "Poppins", sans-serif;
@@ -89,4 +92,9 @@ h3 {
 
 iframe {
   border: none;
+}
+
+iframe .i4ewOd-pzNkMb-haAclf {
+  background-color: #573449;
+  display: none;
 }
