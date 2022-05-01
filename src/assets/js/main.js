@@ -180,8 +180,4 @@ $(function() {
     });
 
     SetRatingStar();
-
-
-
-
 });
